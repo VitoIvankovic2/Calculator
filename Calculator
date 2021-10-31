@@ -1,8 +1,9 @@
-x = int(input("Enter the value for x: "))
 
-y = int(input("Enter the value for y: "))
+x = int(input("Upišite prvi broj: "))
 
-operation = input("Choose math operation (+, -, *, /): ")
+y = int(input("Upišite drugi broj: "))
+
+operation = input("Što želite izračunati (+, -, *, /): ")
 
 if operation == "+":
     print(x + y)
@@ -13,4 +14,4 @@ elif operation == "*":
 elif operation == "/":
     print(x / y)
 else:
-    print("You did not provide the correct math operation.")
+    print("Nešto niste ispravno upisali")
